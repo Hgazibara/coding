@@ -18,7 +18,7 @@ def load_changes(input_filename):
 
 
 def compute_resulting_frequency(changes):
-    return reduce(opearator.add, changes, 0)
+    return sum(changes)
 
 
 if __name__ == '__main__':
